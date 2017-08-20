@@ -1,0 +1,166 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0 0 0 70px;
+    padding:0px;
+}
+#divHeader
+{
+    width: 1200px;
+    height:150px;
+    background-image: url("../../Images/shop_02.gif");
+    background-size: 100%;
+    overflow: hidden;
+}
+#menu
+{
+    list-style-type: none;
+    margin: 126px 0px 0 340px;
+}
+#menu li
+{
+    float: left;
+    margin: 0 30px;
+}
+#menu li a
+{
+    text-decoration: none;
+    color: #373D45;
+}
+
+#divContainer
+{
+    width: 1200px;
+    height: 900px;
+}
+#Container_left
+{
+    width: 300px;
+    height: 900px;
+    float: left;
+}
+#Container_left_login
+{
+    width: 300px;
+    height: 300px;
+    background-image: url("../../Images/shop_04.gif");
+    background-size: 100%;
+}
+#Container_left_publics
+{
+    width: 300px;
+    height: 300px;
+    background-image: url("../../Images/shop_06.gif");
+    background-size: 100% 100%;
+}
+#Container_left_link
+{
+    width: 300px;
+    height: 300px;
+    background-image: url("../../Images/shop_13.gif");
+    background-size: 100%;
+}
+#Container_right
+{
+    width: 900px;
+    height: 900px;
+    float: left;
+}
+#Container_right_top
+{
+    width: 900px;
+    height: 300px;
+    background-color: #00CC00;
+}
+#divbanner
+{
+    width: 900px;
+    height: 300px;
+    background-image: url("../../Images/shop_05.gif");
+    background-size: 100% 100%;
+}
+#search
+{
+    width:400px;
+    margin-top:-40px;
+    margin-left:305px;
+    overflow: hidden;
+}
+#Container_right_bottom
+{
+    width: 900px;
+    height: 600px;
+  /*  background-color: #00FF66;*/
+}
+#HotAndCom
+{
+    width:900px;
+    height:400px;
+}
+#divCom
+{
+    width:448px;
+    height:400px;
+    float:left;
+    border-right: 2px solid black;
+}
+#comTitle
+{
+    width:448px;
+    height:30px;
+    background-image:url(../../Images/shop_07.gif);
+    background-size:100% 100%;
+}
+#comContent
+{
+    width: 448px;
+    height: 370px;
+}
+#divHot
+{
+    width:448px;
+    height:400px;
+    float:left;
+    border-left: 2px solid black;
+}
+#hotTitle
+{
+    width:448px;
+    height:30px;
+    background-image:url(../../Images/shop_14.gif);
+    background-size:100% 100%;
+}
+#hotContent
+{
+    width: 448px;
+    height: 370px;
+}
+#divNew
+{
+    width:900px;
+    height:200px;
+}
+#newTitle
+{
+    width:900px;
+    height:40px;
+    background-image:url(../../Images/shop_10.gif);
+    background-size:100% 100%;
+}
+#newContent
+{
+    width: 900px ;
+    height: 160px;
+}
+#divBottom
+{
+    width: 1200px;
+    height: 100px;
+    background-image: url("../../Images/shop_17.gif");
+    background-size: 100%;
+    padding-bottom: 10px;
+}

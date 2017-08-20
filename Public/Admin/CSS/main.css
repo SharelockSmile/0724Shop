@@ -1,0 +1,77 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0 70px;
+    padding:0px;
+}
+#divHeader
+{
+    width: 1200px;
+    height:150px;
+    background-image: url("../../Images/ad_header.gif");
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#divContainer
+{
+    width: 1200px;
+    height: 900px;
+    overflow: hidden;
+}
+#Container_left
+{
+    width: 298px;
+    height: 900px;
+    float: left;
+    background-color: lightgrey;
+    margin-right: 2px;
+    overflow: hidden;
+}
+/*有关菜单的一些样式*/
+#firstU
+{
+    margin-top: 30px;
+}
+#firstU ,#secondU
+{
+    list-style-type: none;
+    color: #373D45;
+}
+.firstli span
+{
+    width: 100%;
+    background-image: url("../../Images/search.gif");
+    background-size: 100px;
+}
+.firstli , .secondli
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.secondli a
+{
+    text-decoration: none;
+    color: #0e6578;
+    height: 30px;
+}
+/*--------Menu End--------*/
+#Container_right
+{
+    width: 896px;
+    height: 896px;
+    float: left;
+    border: 2px solid sienna;
+}
+#divBottom
+{
+    width: 1200px;
+    height: 100px;
+    background-image: url("../../Images/shop_17.gif");
+    background-size: 100%;
+    padding-bottom: 10px;
+}

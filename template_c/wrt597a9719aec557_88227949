@@ -1,0 +1,48 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-28 09:44:57
+  from "D:\phpStudy\WWW\phpTest\0724Shop\templates\Admin\login.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_597a97195fe0c7_27619750',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '268b807621b6864a11e5fa1cdbd223af65171af0' => 
+    array (
+      0 => 'D:\\phpStudy\\WWW\\phpTest\\0724Shop\\templates\\Admin\\login.tpl',
+      1 => 1501206187,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_597a97195fe0c7_27619750 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<html>
+<head>
+    <link rel="stylesheet" href="<?php echo @constant('HOME_CSS_URL');?>
+login.css">
+</head>
+<body>
+    <div id="back">
+        <div id="login">
+            <form>
+                <table>
+                    <tr><th>管理登陆</th></tr>
+                    <tr><td>
+                            用户名：<input type="text" name="uname" id="uname">
+                        </td></tr>
+                    <tr><td>
+                            密码：<input type="password" name="upwd" id="upwd">s
+                        </td></tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html><?php }
+}
